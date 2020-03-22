@@ -1,0 +1,15 @@
+{
+  "name": "cft",
+  "version": "1.0.0",
+  "description": "Copy and paste files via ascii85 to and from your clipboard.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Scott",
+  "license": "MIT",
+  "dependencies": {
+    "ascii85": "^1.0.2",
+    "clipboardy": "^2.3.0"
+  }
+}
