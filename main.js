@@ -11,7 +11,7 @@ function pasteFile() {
         let clipboardContents = clipboard.readSync()
         let regex = /(.*)<~(.*)~>/
         let match = regex.exec(clipboardContents)
-        if(match.length == 3) {
+        if(match && match.length == 3) {
             let basename = match[1]
             let encodedFile = match[2]
             console.log('Decoding ascii85 file...')
