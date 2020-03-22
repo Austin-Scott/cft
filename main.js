@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs')
 const clipboard = require('clipboardy')
 const path = require('path')
