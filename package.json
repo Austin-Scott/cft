@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "ascii85": "^1.0.2",
-    "clipboardy": "^2.3.0"
+    "clipboardy": "^3.0.0"
   }
 }
